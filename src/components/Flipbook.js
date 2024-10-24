@@ -6,7 +6,7 @@ import iceage from '../assets/iceage.png';
 import camelot from '../assets/camelot.png';
 import gladiator from '../assets/gladiator.png';
 import '../Flipbook.css'; // Make sure to import the CSS file correctly
-import openbook from '../assets/openbookk.png';
+import openbook from '../assets/openbookkmob.png';
 
 const pages = [
     { id: "c1", title: "Apple", text: "LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM", backImage: iceage },
