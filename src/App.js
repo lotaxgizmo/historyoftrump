@@ -11,19 +11,19 @@ import Flipbook from './components/Flipbook';
 const App = () => {
   return (
     <div className=''>
-      {/* <Hero />
+      <Hero />
       <Welcome />
-      <Collectcard /> */}
+      {/* <Flipbook /> */}
+      <Collectcard />
 
-      {/* <Tokenomics />
+      <Tokenomics />
 
       <Partners />
 
-      <Disclaimer /> */}
+      <Disclaimer />
 
-      {/* <Footer /> */}
+      <Footer />
 
-      <Flipbook />
     </div>
   );
 };

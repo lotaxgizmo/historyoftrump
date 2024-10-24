@@ -39,3 +39,8 @@ body {
 .red {
   color: #680000;
 }
+
+.Hero {
+  background-image: url(./assets/trumpvid.MP4);
+  background-size: cover;
+}

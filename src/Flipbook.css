@@ -111,6 +111,14 @@ p {
     padding: 0 10px; /* Reduce padding for mobile */
   }
 
+  .front {
+    width: 200px;
+  }
+
+  .back {
+    width: 200px;
+  }
+
   .text-4xl {
     font-size: 1.5rem; /* Adjust font size for mobile */
   }

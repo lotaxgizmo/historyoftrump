@@ -8,7 +8,7 @@ import america from "../assets/america.png"
 
 function Navbar() {
     return (
-        <div className='Navbar flex flex-col justify-center items-center relative king'>
+        <div className='z-20 Navbar flex flex-col justify-center items-center relative king'>
             <img src={navbar} alt="navbar" className='w-full lg:w-11/12 hidden lg:block' />
             <img src={navbarmob} alt="navbarmob" className='w-11/12 lg:hidden' />
 

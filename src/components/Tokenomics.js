@@ -4,7 +4,7 @@ import parchmentmob from "../assets/parchmentmob.png"
 
 function Tokenomics() {
     return (
-        <div className=' flex flex-col justify-center items-center erin relative'>
+        <div className='overflow-hidden flex flex-col justify-center items-center erin relative'>
 
             <img src={parchment} alt="" className='relative hidden lg:block' />
             <img src={parchmentmob} alt="" className='w-[500px] max-w-none relative lg:hidden block' />

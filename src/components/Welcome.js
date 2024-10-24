@@ -4,10 +4,12 @@ import camelotscroll from "../assets/camelotscroll.png"
 import gladiatorscroll from "../assets/gladiatorscroll.png"
 import icescroll from "../assets/icescroll.png"
 import readscrollbtn from "../assets/readscrollbtn.png"
+import Flipbook from '../components/Flipbook';
+
 
 function Welcome() {
     return (
-        <div className='welcome flex flex-col justify-center items-center'>
+        <div className=' pt-10 welcome flex flex-col justify-center items-center'>
             <div className="toppart flex flex-row w-full justify-center items-center lg:justify-between px-4 lg:px-16 mb-0 lg:mb-20">
                 <img src={flag} alt="" className='w-20 h-20 lg:h-40 lg:w-40' />
 
@@ -49,6 +51,8 @@ function Welcome() {
 
 
             </div>
+
+            <Flipbook />
 
         </div>
     )
