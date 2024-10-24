@@ -25,8 +25,8 @@ function Navbar() {
                 <div className="third flex lg:flex-row flex-row-reverse justify-between items-center  w-full lg:w-auto">
                     <p className='text-2xl hidden lg:block'>Buy Now</p>
                     <div className="icons flex flex-row gap-5 mx-5 ">
-                        <img src={tgicon} alt="tgicon" className='w-12' />
-                        <img src={xicon} alt="xicon" className='w-12' />
+                        <a href="https://t.me/HistoryOfTrump" target="_blank" rel="noopener noreferrer"><img src={tgicon} alt="tgicon" className='w-12' /></a>
+                        <a href="https://x.com/historyoftrump_?s=21&t=hFPpzrUiGpyoqrZ5CJ3fwQ" target="_blank" rel="noopener noreferrer"><img src={xicon} alt="xicon" className='w-12' /></a>
                     </div>
                     <img src={america} alt="america" className='w-32' />
                 </div>
