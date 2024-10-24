@@ -20,13 +20,13 @@ const FlipBook = () => {
         <div className="erin booked flex flex-col justify-center items-center relative mt-5">
             <img src={openbookk} alt="" className='w-[1000px] hidden lg:flex' />
             <img src={openbookkmob} alt="" className='w-[1000px] flex lg:hidden' />
-            <div className=" ml-[8px] lg:ml-0 book absolute .border-2 border-black">
+            <div className=" ml-[-20px] lg:ml-0 book absolute border-2 border-black">
                 {pages.map((page) => (
                     <input type="checkbox" id={page.id} key={`checkbox-${page.id}`} />
                 ))}
 
                 <div className='lg:w-[330px] lg:h-[550px] flex justify-center items-center '>
-                    <img src={coverImage} alt="Cover" className='w-20 lg:w-72 h-auto mx-8' />
+                    <img src={coverImage} alt="Cover" className='w-40 lg:w-72 h-auto mx-4' />
                 </div>
 
                 <div className="flip-book relative lg:w-[330px] lg:h-[550px]">
