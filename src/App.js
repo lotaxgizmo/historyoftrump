@@ -13,7 +13,7 @@ const App = () => {
     <div className=''>
       <Hero />
       <Welcome />
-      <Flipbook />
+      {/* <Flipbook /> */}
       <Collectcard />
 
       <Tokenomics />

@@ -14,8 +14,8 @@ function Footer() {
             <img src={logolike} alt="" className='w-10/12 lg:w-96 mt-7' />
 
             <div className="icons mb-7 flex flex-row gap-4">
-                <img src={xtter} alt="" className='w-12' />
-                <img src={tgram} alt="" className='w-12' />
+                <a href="https://x.com/historyoftrump_?s=21&t=hFPpzrUiGpyoqrZ5CJ3fwQ" target="_blank" rel="noopener noreferrer"><img src={xtter} alt="" className='w-12' /></a>
+                <a href="https://t.me/HistoryOfTrump" target="_blank" rel="noopener noreferrer"><img src={tgram} alt="" className='w-12' /></a>
             </div>
 
 
