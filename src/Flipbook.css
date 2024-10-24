@@ -103,7 +103,7 @@ p {
 @media (max-width: 640px) {
   .flip-book {
     width: 150px; /* Adjust this width for mobile */
-    height: 400px; /* Adjust this height for mobile */
+    height: 250px; /* Adjust this height for mobile */
   }
 
   .front,

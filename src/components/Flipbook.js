@@ -6,25 +6,27 @@ import iceage from '../assets/iceage.png';
 import camelot from '../assets/camelot.png';
 import gladiator from '../assets/gladiator.png';
 import '../Flipbook.css'; // Make sure to import the CSS file correctly
-import openbook from '../assets/openbookkmob.png';
+import openbookk from '../assets/openbookk.png';
+import openbookkmob from '../assets/openbookkmob.png';
 
 const pages = [
     { id: "c1", title: "Apple", text: "LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM", backImage: iceage },
-    { id: "c2", title: "Apple", text: "LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM", backImage: camelot },
-    { id: "c3", title: "Apple", text: "LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM", backImage: gladiator },
+    { id: "c2", title: "Ball", text: "LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM", backImage: camelot },
+    { id: "c3", title: "Toy", text: "LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM", backImage: gladiator },
 ];
 
 const FlipBook = () => {
     return (
-        <div className="erin booked flex flex-col justify-center items-center relative">
-            <img src={openbook} alt="" className='w-[1000px]' />
-            <div className="book absolute border-2 border-black">
+        <div className="erin booked flex flex-col justify-center items-center relative mt-5">
+            <img src={openbookk} alt="" className='w-[1000px] hidden lg:flex' />
+            <img src={openbookkmob} alt="" className='w-[1000px] flex lg:hidden' />
+            <div className=" ml-[8px] lg:ml-0 book absolute .border-2 border-black">
                 {pages.map((page) => (
                     <input type="checkbox" id={page.id} key={`checkbox-${page.id}`} />
                 ))}
 
-                <div className='lg:w-[330px] lg:h-[550px] flex justify-center items-center'>
-                    <img src={coverImage} alt="Cover" className='w-32 lg:w-72 h-auto' />
+                <div className='lg:w-[330px] lg:h-[550px] flex justify-center items-center '>
+                    <img src={coverImage} alt="Cover" className='w-20 lg:w-72 h-auto mx-8' />
                 </div>
 
                 <div className="flip-book relative lg:w-[330px] lg:h-[550px]">
