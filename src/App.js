@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Hero from './components/Hero';
+import Welcome from './components/Welcome';
+import Collectcard from './components/Collectcard';
+import Tokenomics from './components/Tokenomics';
+import Partners from './components/Partners';
+import Disclaimer from './components/Disclaimer';
+import Footer from './components/Footer';
+import Flipbook from './components/Flipbook';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=''>
+      {/* <Hero />
+      <Welcome />
+      <Collectcard /> */}
+
+      {/* <Tokenomics />
+
+      <Partners />
+
+      <Disclaimer /> */}
+
+      {/* <Footer /> */}
+
+      <Flipbook />
     </div>
   );
-}
+};
 
 export default App;
